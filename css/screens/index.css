@@ -1,0 +1,90 @@
+
+#score_header {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+}
+
+#score_X {
+    color: blue;
+}
+
+#score_Y {
+    color: red;
+}
+
+#messager_header {
+    height: 20px;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+}
+
+#current_player_header {
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+    margin-bottom: 5px;
+}
+
+#newgame_header {
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding:5px;
+    background-color: lightgrey;
+    border: 3px solid grey;
+    border-radius: 30px;
+    cursor: pointer;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+#newgame_header:hover {
+    background-color: grey;
+    color: white;
+}
+
+#current_player_name {
+    font-size: 60px;
+}
+
+#game_table {
+    margin: auto;
+    border: 3px solid grey;
+    border-collapse: collapse;
+}
+
+#game_table td,
+#game_table th {
+    cursor: pointer;
+    border: 3px solid grey;
+}
+
+.tile {
+    height: 200px;
+    width: 200px;
+    font-size: 150px;
+    text-align: center;
+    font-weight: bold;
+    font-family: arial;
+    background-color: lightgrey;
+    
+    /* Make HTML unselectable */
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.player_name {
+    font-size: 60px;
+}

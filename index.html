@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <!-- Include Page CSS -->
+    <link rel="stylesheet" href="./css/screens/index.css">
+
+    <!-- Include Page Javascript -->
+    <script type="text/javascript" src="./js/screens/index.js"></script>
+
+    <!-- Include Modals Javascript -->
+    <script type="text/javascript" src="./js/modals/Player.js"></script>
+</head>
+
+<body onload="init()">
+
+    <h1 id="score_header">
+        <span id="score_1"></span> - <span id="score_0"></span>
+    </h1>
+
+    <h1 id="messager_header"></h1>
+
+    <h1 id="current_player_header">
+        Player Turn: 
+        <span id="current_player_name"></span>
+    </h1>
+
+    <h1 id="newgame_header" onClick="newGame()">New Game</h1>
+
+    <table id="game_table"></table>
+
+</body>
+
+</html>
