@@ -109,14 +109,14 @@ function fillTile(id) {
     // Fill Tile Value by Player
     fillTileElemValueByCurrentPlayer(tileElem);
 
+    // Check for winner
+    var hasWon = checkForWinner();
+
     // Check for Draw
     var isDraw = checkForDraw();
 
     // Exit function if Draw
     if(isDraw) return;
-
-    // Check for winner
-    var hasWon = checkForWinner();
 
     // Switch Players
     if(!hasWon) switchPlayers();
